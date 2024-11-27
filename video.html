@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 150px; 
+            margin: 20px;
+            text-align: center;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ff69b4;
+        }
+          .button-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px; 
+            margin-bottom: 50px; 
+        }
+
+        .next-button, .no-button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .no-button {
+            background-color: #b0b0b0;
+        }
+
+        .next-button:hover {
+            background-color: #ff1493;
+        }
+
+        .no-button:hover {
+            background-color: #8e8e8e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Player</h1>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="button-row">
+        <a href="https://wa.me/6283893583450?text=mwahh" class="next-button">IYAAA HENDRAA</a>
+        <a href="No.html" class="no-button">GAMAUU</a>
+    </div>
+</body>
+</html>
